@@ -16,7 +16,7 @@ export const botConfig = {
 
     // Activity lines shown under the bot name.
     // `type` number mapping from Discord:
-    // 0 = Playing
+    // 0 = observing the server
     // 1 = Streaming
     // 2 = Listening
     // 3 = Watching
@@ -25,7 +25,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "edited by jr dev @gamerboy._",
         // Activity type number (0 = Playing).
         type: 0, 
       },
@@ -88,7 +88,7 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699", 
+      primary: "#00ff00", 
       secondary: "#2F3136", 
 
       // Standard status colors for success/error/warning/info messages.
